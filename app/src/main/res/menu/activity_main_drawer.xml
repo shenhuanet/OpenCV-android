@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_face"
+            android:icon="@drawable/ic_menu_face"
+            android:title="Face" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Image" />
+        <item
+            android:id="@+id/nav_similarity"
+            android:icon="@drawable/ic_menu_similarity"
+            android:title="Similarity" />
+        <item
+            android:id="@+id/nav_detect"
+            android:icon="@drawable/ic_menu_detect"
+            android:title="Detect" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_github"
+                android:icon="@drawable/ic_menu_github"
+                android:title="GitHub" />
+        </menu>
+    </item>
+
+</menu>

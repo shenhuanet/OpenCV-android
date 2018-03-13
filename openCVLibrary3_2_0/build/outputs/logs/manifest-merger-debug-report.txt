@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:1-5:35
+	package
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		ADDED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
+		INJECTED from E:\shenhua\Androids\OpenCVandroid\openCVLibrary3_2_0\src\main\AndroidManifest.xml
