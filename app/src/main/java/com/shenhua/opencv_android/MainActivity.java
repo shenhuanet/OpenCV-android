@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         mContainer = findViewById(R.id.container);
-        nav(ImageFragment.newInstance());
+        nav(FaceFragment.newInstance());
     }
 
     @Override
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_face) {
-            // Handle the camera action
+            nav(FaceFragment.newInstance());
         } else if (id == R.id.nav_gallery) {
             nav(ImageFragment.newInstance());
         } else if (id == R.id.nav_similarity) {
@@ -115,8 +115,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void nav(Fragment fragment) {
-        Fragment fragmentById = getSupportFragmentManager().findFragmentById(R.id.container);
-        if (fragmentById != null && fragmentById == mCurrentContent) {
+        Fragment current = getSupportFragmentManager().findFragmentById(R.id.container);
+        if (current != null && current == fragment) {
             return;
         }
         getSupportFragmentManager().beginTransaction()

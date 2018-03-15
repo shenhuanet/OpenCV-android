@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shenhua.opencv_android.FaceFragment">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#30FFFFFF">
+
+        <RadioButton
+            android:id="@+id/rb_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="人脸检测"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="眼睛检测"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_upper_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上半身检测"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_lower_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下半身检测"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_full_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全身检测"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_smile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微笑检测"
+            android:textColor="@android:color/white" />
+
+    </RadioGroup>
+
+</FrameLayout>
