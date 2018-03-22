@@ -1,6 +1,13 @@
 ## OpenCV-android
 OpenCV Android 实现人脸识别、图片处理、图片相似度检测、物体识别功能。（基于OpenCV Library v3.2.0）
 
+## 预览
+<div align="center">
+	<img src="https://github.com/shenhuanet/OpenCV-android/blob/master/art/pic001.png"/>
+	<img src="https://github.com/shenhuanet/OpenCV-android/blob/master/art/pic002.png"/>
+	<img src="https://github.com/shenhuanet/OpenCV-android/blob/master/art/pic003.png"/>
+</div>
+
 ## About Me
 CSDN：http://blog.csdn.net/klxh2009<br>
 JianShu：http://www.jianshu.com/u/12a81897d5bc
